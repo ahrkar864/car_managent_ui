@@ -105,15 +105,23 @@ const EmployeeInformationFields = [
         type: 'textarea',
         placeholder: 'Enter remarks here...',
     },
+    // {
+    //     labelText: 'LOCATION',
+    //     id: 'location',
+    //     labelFor: 'location',
+    //     name: 'location',
+    //     type: 'text',
+    //     placeholder: 'Click on the map to pick a location...',
+    //     isReadOnly: true 
+    // }
     {
-        labelText: 'LOCATION',
-        id: 'location',
-        labelFor: 'location',
-        name: 'location',
+        labelText: 'Place',
+        id: 'place',
+        labelFor: 'place',
+        name: 'place',
         type: 'text',
-        placeholder: 'Click on the map to pick a location...',
-        isReadOnly: true 
-    }
+        placeholder: 'Enter you want to go here...',
+    },
 ];
 
 

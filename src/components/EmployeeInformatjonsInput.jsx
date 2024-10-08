@@ -14,7 +14,6 @@ export default function EnployeeInformationsInput({
     customClass = ""
 }) {
     return (
-
             <div className=""> 
                 <label htmlFor={labelFor} className="block text-sm font-medium text-gray-700 mb-2">
                     {labelText}
@@ -43,7 +42,5 @@ export default function EnployeeInformationsInput({
                     />
                 )}
             </div>
-    
-
     );
 }
